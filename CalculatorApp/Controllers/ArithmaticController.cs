@@ -69,5 +69,29 @@ namespace CalculatorApp.Controllers
 
 
 
+        [HttpGet]
+        [Route("Multiply")]
+        public IActionResult multiplyNumbers([FromQuery] int num1, [FromQuery] int num2)
+        {
+
+            throw new NotImplementedException();
+            
+
+        }
+
+
+        [HttpGet]
+        [Route("Division")]
+        public IActionResult divideNumbers([FromQuery] int num1, [FromQuery] int num2)
+        {
+
+            throw new NotImplementedException();
+
+
+        }
+
+
+
+
     }
-    }
+}
