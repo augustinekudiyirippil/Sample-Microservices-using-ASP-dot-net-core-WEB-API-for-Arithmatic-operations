@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hltWDgimTVcGWsVDstfUuGSup3RxDEuYvVflUIeJ5KKbg5Vf3mvZ1U2jThY73Mu0P7FxjER2uhEgOU7Vbg1M3w==",
+  "success": true,
+  "projectFilePath": "D:\\Augustine\\Personal\\Microservices\\Microservices using ASP dot net core WEB API\\SubtractionService\\SubtractionService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Demo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Demo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Demo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Demo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Demo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Demo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
