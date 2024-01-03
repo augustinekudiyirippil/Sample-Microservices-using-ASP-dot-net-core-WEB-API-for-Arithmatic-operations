@@ -52,7 +52,7 @@ namespace CalculatorApp.Controllers
             HttpResponseMessage response = client.GetAsync(url).Result;
             if (response.IsSuccessStatusCode)
             {
-                return new JsonResult("The result of addition is " + response.Content.ReadAsStringAsync().Result);
+                return new JsonResult("The result of Subtraction is " + response.Content.ReadAsStringAsync().Result);
 
 
             }
@@ -74,8 +74,24 @@ namespace CalculatorApp.Controllers
         public IActionResult multiplyNumbers([FromQuery] int num1, [FromQuery] int num2)
         {
 
-            throw new NotImplementedException();
-            
+            HttpClient client = new HttpClient();
+
+            string url = string.Format("http://localhost:5042/Multiplication-Service/Multi?firstNumber={0}&secondNumber={1}", num1, num2);
+
+
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                return new JsonResult("The result of multiplication is " + response.Content.ReadAsStringAsync().Result);
+
+
+            }
+
+            else
+            {
+                throw new Exception("Internal server error");
+            }
+
 
         }
 
