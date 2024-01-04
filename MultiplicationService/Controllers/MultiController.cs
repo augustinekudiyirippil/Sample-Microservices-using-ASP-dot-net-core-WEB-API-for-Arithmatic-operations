@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace MultiplicationService.Controllers
 {
     [Route("Multiplication-Service")]
-    public class SubController : Controller
+    public class MultiController : Controller
     {
         [Route("Multi")]
         public IActionResult Get([FromQuery] int firstNumber, [FromQuery] int secondNumber)

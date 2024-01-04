@@ -2,11 +2,11 @@
 
 namespace DivisionService.Controllers
 {
+    [Route("Division-Service")]
     public class DivisionController : Controller
     {
-        [Route("Division-Service")]
-        public class SubController : Controller
-        {
+     
+        
             [Route("Division")]
             public IActionResult Get([FromQuery] int firstNumber, [FromQuery] int secondNumber)
             {
@@ -14,5 +14,5 @@ namespace DivisionService.Controllers
             }
 
         }
-    }
+    
 }
